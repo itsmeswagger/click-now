@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered Link</title>
+    <style>
+        /* Apply Flexbox to the body to center the link */
+        body {
+            background-color: #000000;  
+            display: flex;
+            justify-content: center;  /* Centers horizontally */
+            align-items: center;      /* Centers vertically */
+            height: 100vh;            /* Full viewport height */
+            margin: 0;                /* Remove default margin */
+            font-family: Arial, sans-serif;
+        }
+
+        .center-text {
+            font-size: 70px;   /* Adjust text size */
+            text-decoration: none;  /* Removes the default underline from the link */
+        }
+
+        .center-text:hover {
+            color: rgb(0, 150, 0);        /* Change color on hover */
+            text-decoration: underline;  /* Adds an underline on hover */
+        }
+    </style>
+</head>
+<body>
+    <a href="https://youtu.be/dQw4w9WgXcQ" class="center-text">
+        Click me
+    </a>
+</body>
+</html>
